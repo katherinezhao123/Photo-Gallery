@@ -1,0 +1,40 @@
+body{
+  border: 30px solid #F7C0F1;
+}
+h1{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  border: 10px dotted #7BB3E8;
+  font-family: cursive;
+  font-size: 50px;
+  color: #E8D27B;
+  flex-wrap:wrap;
+  text-decoration: underline;
+}
+.container{
+  object-fit: scale-down;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  flex-direction:row;
+   }
+@media only screen and (max-width:1000px) {
+  body{
+    background-color:#BCE3FF;
+    border:15px dashed #AEFDC2;
+  }
+  h1{color: black;
+    border-style: groove;
+    font-family: fantasy;
+}}
+
+img:hover{
+  border: 5px solid black;
+  padding:-10px;
+}
+img {
+  height:300px;
+  width:300px;
+  padding: 10px;
+}
